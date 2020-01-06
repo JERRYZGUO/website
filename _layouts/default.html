@@ -32,7 +32,7 @@
               </p>
               <p style="text-align:center">
                 <a href="mailto:guo.zheng@sjc.ox.ac.uk">Email</a> &nbsp;/&nbsp;
-                <a href=/pdfs/CV.pdf>CV</a> &nbsp;/&nbsp;
+                <a href={{site.baseurl}}/pdfs/CV.pdf>CV</a> &nbsp;/&nbsp;
                 <a href="https://github.com/JERRYZGUO">GitHub</a>
               </p>
             </td>
@@ -59,7 +59,7 @@
           {% if cat == 'research' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              <img src="{{site.baseurl}}{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
@@ -79,7 +79,7 @@
               <a href="{{post.video}}">video</a> /
               {% endif %}
               {% if post.report %}
-              <a href="{{post.report}}">report</a> /
+              <a href="{{site.baseurl}}{{post.report}}">report</a> /
               {% endif %}
               {% if post.code %}
               <a href="{{post.code}}">code</a> /
@@ -88,10 +88,10 @@
               <a href="{{post.poster}}">poster</a> /
               {% endif %}
               {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
+              <a href="{{site.baseurl}}{{post.slides}}">slides</a> /
               {% endif %}
               {% if post.pending %}
-              <a href="{{post.pending}}">pending</a> /
+              <a href="{{site.baseurl}}{{post.pending}}">pending</a> /
               {% endif %}
               <p></p>
               {{ post.excerpt }}
@@ -122,7 +122,7 @@
 
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              <img src="{{site.baseurl}}{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
@@ -158,7 +158,7 @@
               <a href="{{post.poster}}">poster</a> /
               {% endif %}
               {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
+              <a href="{{site.baseurl}}{{post.slides}}">slides</a> /
               {% endif %}
               {% if post.pending %}
               paper /
