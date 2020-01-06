@@ -2,7 +2,7 @@
 layout: post
 title:  "Investment Banking Internship"
 date:   2019-04-01 00:00:00 +00:00
-image:  /images/SpringInternDB.jpeg
+image:  {{site.baseurl}}/images/SpringInternDB.jpeg
 categories: internship
 venue: "Desutche Bank Spring Week Program"
 ---
