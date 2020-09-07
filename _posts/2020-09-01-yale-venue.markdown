@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Simulating Hubbard Model with Optimal Control on Bosonic Qubits"
-date:   2019-09-01 00:00:00 +00:00
+date:   2020-09-01 00:00:00 +00:00
 image:  /images/yale_plot.png
 categories: research
 venue: "Yale University"
