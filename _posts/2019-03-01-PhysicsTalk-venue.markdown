@@ -7,4 +7,4 @@ categories: talk
 venue: "Oxford Course Work"
 slides: /pdfs/PhysicsTalk.pdf
 ---
-Gave a talk on the cutting-edge research on quantum machine learning. Aimed at a more general audience with some basic physics knowledge.
+Gave a talk on the cutting-edge research on quantum machine learning and state-of-the-art experimental realizations of quantum computing

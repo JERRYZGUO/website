@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Solving Quantum Many-Body Problem using Artificial Neural Network"
+title:  "Simulating Time-dependent Ising Model with Artificial Neural Networks"
 date:   2019-07-01 00:00:00 +00:00
 image:  /images/locE_param.png
 categories: research
@@ -9,4 +9,7 @@ report:  /pdfs/VacationPlacement.pdf
 supervisor: "Prof. Herschel Rabitz"
 slides: /pdfs/ISIP_presentation.pdf
 ---
-The project aims at solving Ising model and other quantum many-body models using Artifical Neural Networks. It is expected to perform much better than conventional numerical methods for solving Schrodinger equations, i.e. reducing complexity from exponential to polynomial. This project is still ongoing, so some technical details won't be disclosed.
+Simulated dynamics of one dimensional Ising model under time-dependent transverse and longitudinal
+fields using Artificial Neural Networks (ANN) models such as Feed Forward Neural Network and
+Restricted Boltzmann Machine. Optimized the fidelity by initializing the parameters with ground states evolved from stochastic
+reconfiguration. Implemented Metropolis-Hastings algorithm based on Markov chains for stochastic sampling. Demonstrated the polynomial complexity of the ANN models compared to the exponential scaling of conventional numerical methods for up to 10 spins.
